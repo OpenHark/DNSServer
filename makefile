@@ -9,7 +9,7 @@ SOURCE_FILE_NAME = $(SOURCE_DIR)/$(ROOT_FILE_NAME)
 EXE_FILE_NAME = $(PROJECT_NAME).exe
 EXE_FILE = out/$(EXE_FILE_NAME)
 
-CMD = Fsc
+CMD = fsc
 OPTIONS = 
 REFERENCES = --reference:System.Runtime.Caching.dll
 
